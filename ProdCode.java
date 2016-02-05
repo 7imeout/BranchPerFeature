@@ -5,6 +5,6 @@ public class ProdCode {
 
     public static void mainTask() {
         System.out.println(
-            Decorator.decorateString("This is Good Prod Code", "!!"));
+            Decorator.decorateString(Shouter.shoutString("This is Good Prod Code"), "!!"));
     }
 }
