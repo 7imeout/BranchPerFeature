@@ -4,6 +4,7 @@ public class ProdCode {
     }
 
     public static void mainTask() {
-        System.out.println("This is Good Prod Code");
+        System.out.println(
+            Decorator.decorateString("This is Good Prod Code", "!!"));
     }
 }

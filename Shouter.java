@@ -1,5 +1,5 @@
 public class Shouter {
-    public static Stirng shoutString(String what) {
+    public static String shoutString(String what) {
         return what.toUpperCase();
     }
 }
